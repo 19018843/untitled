@@ -1,3 +1,5 @@
+
+
 public class print_factuur {
     klant klant1;
     public void print_gegevens(){
@@ -5,6 +7,9 @@ public class print_factuur {
         System.out.println(klant1.adres);
         System.out.println(klant1.postcode);
         System.out.println(klant1.telefoon);
+    }
+    public static void streepjes(){
+        System.out.println("-------------------------------------------------");
     }
 
 
